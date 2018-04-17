@@ -180,14 +180,14 @@
     },
     "subnet1Prefix": {
       "type": "string",
-      "defaultValue": "172.26.112.32/27",
+      "defaultValue": "172.26.112.0/27",
       "metadata": {
         "description": "Untrust subnet CIDR"
       }
     },
     "subnet2Prefix": {
       "type": "string",
-      "defaultValue": "172.26.112.96/27",
+      "defaultValue": "172.26.112.32/27",
       "metadata": {
         "description": "Trust subnet CIDR"
       }
@@ -201,14 +201,14 @@
     },
     "subnet1StartAddress": {
       "type": "string",
-      "defaultValue": "172.26.112.36",
+      "defaultValue": "172.26.112.4",
       "metadata": {
         "description": "Untrust subnet start address"
       }
     },
     "subnet2StartAddress": {
       "type": "string",
-      "defaultValue": "172.26.112.100",
+      "defaultValue": "172.26.112.36",
       "metadata": {
         "description": "Trust subnet start address"
       }
